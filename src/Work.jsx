@@ -89,7 +89,7 @@ const Work = () => {
             <li className="mb-4 px-4">
               High-Quality Motion Work with JavaScript.
             </li>
-            <li className="mb-4 px-4">Maintaining websites with WordPress.</li>
+            <li className="mb-4 px-4">Maintaining 30+ websites with WordPress.</li>
             <li className="mb-4 px-4">Search Engine Optimization</li>
           </ul>
           <div className="text-center work-grid mb-4" ref={scrollProject1}>
