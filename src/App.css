@@ -6,7 +6,10 @@
   font-family: recoleta;
   src: url(assets/Recoleta-Bold.ttf) format("truetype");
 }
-
+@font-face {
+  font-family: pretendard;
+  src: url(assets/Pretendard-Regular.ttf) format("truetype");
+}
 html,
 body,
 div,
@@ -432,4 +435,8 @@ footer {
   z-index: -1;
   mix-blend-mode: color-burn;
   background: url(assets/imgs/circle.svg) 0% 0% / cover no-repeat;
+}
+
+.font-kr{
+  font-family: pretendard, sans-serif;
 }

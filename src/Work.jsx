@@ -72,25 +72,25 @@ const Work = () => {
         <div className="role">
           <h2 className="my-5 fs-2 exp">Work Experience</h2>
           <h3 className="fs-5">
-            One year of work experience as a junior front-end developer at{" "}
+          프론트엔드 개발자 2022 ~ 2023 at {""}
             <Link
               to={"https://studio-jt.co.kr/"}
               target="_blank"
               rel="noreferrer noopenner"
             >
               Studio-JT
-            </Link>
+            </Link> 
           </h3>
           <ul className="fs-5 heart-ul">
             <li className="mb-4 px-4"></li>
             <li className="mb-4 px-4">
-              Responsive Website Creation using HTML & CSS
+              HTML & CSS 사용하여 반응형 웹사이트 제작
             </li>
             <li className="mb-4 px-4">
-              High-Quality Motion Work with JavaScript.
+              자바스크립트를 사용한 퀄리티 높은 모션 및 인터랙션
             </li>
-            <li className="mb-4 px-4">Maintaining 30+ websites with WordPress.</li>
-            <li className="mb-4 px-4">Search Engine Optimization</li>
+            <li className="mb-4 px-4">WordPress 사용하여 30개 이상의 웹사이트 유지보수</li>
+            <li className="mb-4 px-4">검색 엔진 최적화 작업</li>
           </ul>
           <div className="text-center work-grid mb-4" ref={scrollProject1}>
             <div className="row justify-content-between gap-3" style={{
@@ -174,7 +174,7 @@ const Work = () => {
                         onMouseLeave={isDesktop ? handleMouseLeave : undefined}
                         className="p-3"
                       >
-                        <div className="">{item.title}</div>
+                        <div className="fs-5">{item.title}</div>
                         <div className="content-img">
                           <figure className="content-thumb">
                             <img src={item.imgUrl} alt="" />
@@ -188,7 +188,7 @@ const Work = () => {
                 </div>
                 {item.isOpen && (
                   <div className="content-box p-3 pt-0 mx-2">
-                    <p>{item.content}</p>
+                    <p className="font-kr fs-6">{item.content}</p>
                   </div>
                 )}
               </li>
