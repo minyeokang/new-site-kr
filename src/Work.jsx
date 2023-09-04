@@ -3,7 +3,7 @@ import { websiteData } from "./data";
 import { Link } from "react-router-dom";
 import klayton from "./assets/imgs/thumb-klayton.png";
 import cafe24 from "./assets/imgs/thumb-cafe24.png";
-import schema from "./assets/imgs/thumb-schema.png";
+import dongil from "./assets/imgs/thumb-dongil.png";
 import { useRef } from "react";
 import { useInView } from "framer-motion"
 const Work = () => {
@@ -71,7 +71,7 @@ const Work = () => {
       <div className="work">
         <div className="role">
           <h2 className="my-5 fs-2 exp">Work Experience</h2>
-          <h3 className="fs-5">
+          <h3 className="fs-5 font-kr">
           프론트엔드 개발자 2022 ~ 2023 at {""}
             <Link
               to={"https://studio-jt.co.kr/"}
@@ -81,15 +81,15 @@ const Work = () => {
               Studio-JT
             </Link> 
           </h3>
-          <ul className="fs-5 heart-ul">
+          <ul className="fs-5 heart-ul font-kr">
             <li className="mb-4 px-4"></li>
             <li className="mb-4 px-4">
               HTML & CSS 사용하여 반응형 웹사이트 제작
             </li>
             <li className="mb-4 px-4">
-              자바스크립트를 사용한 퀄리티 높은 모션 및 인터랙션
+              자바스크립트를 사용한 퀄리티 높은 모션 및 인터랙션 구현
             </li>
-            <li className="mb-4 px-4">WordPress 사용하여 30개 이상의 웹사이트 유지보수</li>
+            <li className="mb-4 px-4">워드프레스를 사용하여 30개 이상의 웹사이트 유지보수</li>
             <li className="mb-4 px-4">검색 엔진 최적화 작업</li>
           </ul>
           <div className="text-center work-grid mb-4" ref={scrollProject1}>
@@ -137,13 +137,13 @@ const Work = () => {
               >
                 <Link
                   to={
-                    "https://studio-jt.co.kr/%ec%8a%a4%ed%82%a4%eb%a7%88-%eb%a7%88%ed%81%ac%ec%97%85/"
+                    "https://dongil82.co.kr/NOW%20DI/%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4-%EC%98%A4%EC%85%98%ED%9E%90%EC%A6%88-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8A%A4%ED%86%A0%EB%A6%AC/"
                   }
                   target="_blank"
                   rel="noreferrer noopenner"
                 >
                   <figure>
-                    <img src={schema} alt="" />
+                    <img src={dongil} alt="" />
                   </figure>
                 </Link>
                 <div className="thumb-overlay"></div>
