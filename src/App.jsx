@@ -53,7 +53,7 @@ function App() {
       </div>
       <div className="overlay" ref={overlayRef}>
           <div className="overlay-inner">
-            <div className="text fs-1" ref={textRef}>
+            <div className="reg-t fs-1" ref={textRef}>
               Frontend
             </div>
           </div>

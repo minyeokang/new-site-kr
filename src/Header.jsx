@@ -6,7 +6,7 @@ function Header() {
         <h1 className="logo">Minyeo</h1>
         <ul className="menu">
           <li><Link to="work">Work</Link></li>
-          <li><Link to="about">About</Link></li>
+          <li><Link to="frame">About</Link></li>
         </ul>
       </nav>
     </header>

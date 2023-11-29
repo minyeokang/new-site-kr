@@ -150,6 +150,9 @@ body {
   font-family: adieu, sans-serif;
   overflow-x: hidden;
 }
+.reg-t {
+  font-family: sans-serif;
+}
 
 /* header */
 
@@ -365,11 +368,19 @@ svg path {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s;
+  color: white;
+  text-align: center;
 }
 .work-grid .hidden.hover .thumb-overlay {
   opacity: 1;
 }
-
+.thumb-overlay > p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
 .copyright {
   color: var(--lgOrange);
   font-family: recoleta, sans-serif;

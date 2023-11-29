@@ -72,7 +72,7 @@ const Work = () => {
         <div className="role">
           <h2 className="my-5 fs-2 exp">Work Experience</h2>
           <h3 className="fs-5 font-kr">
-          프론트엔드 개발자 2022 ~ 2023 at {""}
+          프론트엔드 개발자 2022.06 ~ 2023.06 at {""}
             <Link
               to={"https://studio-jt.co.kr/"}
               target="_blank"
@@ -90,7 +90,13 @@ const Work = () => {
               자바스크립트를 사용한 퀄리티 높은 모션 및 인터랙션 구현
             </li>
             <li className="mb-4 px-4">워드프레스를 사용하여 30개 이상의 웹사이트 유지보수</li>
-            <li className="mb-4 px-4">검색 엔진 최적화 작업</li>
+            <li className="mb-4 px-4">검색 엔진 최적화 작업 <Link
+              to={"https://studio-jt.co.kr/%ec%8a%a4%ed%82%a4%eb%a7%88-%eb%a7%88%ed%81%ac%ec%97%85/"}
+              target="_blank"
+              rel="noreferrer noopenner"
+            >
+              포스팅
+            </Link> </li>
           </ul>
           <div className="text-center work-grid mb-4" ref={scrollProject1}>
             <div className="row justify-content-between gap-3" style={{
@@ -111,8 +117,9 @@ const Work = () => {
                   <figure>
                     <img src={klayton} alt="" />
                   </figure>
+                  {/* <p className="po-ab">유지보수</p> */}
                 </Link>
-                <div className="thumb-overlay"></div>
+                <div className="thumb-overlay"><p className="fs-5">Developer, Community 페이지 구축</p></div>
               </div>
               <div
                 className="col-sm col-12 p-0 hidden"
@@ -128,7 +135,7 @@ const Work = () => {
                     <img src={cafe24} alt="" />
                   </figure>
                 </Link>
-                <div className="thumb-overlay"></div>
+                <div className="thumb-overlay"><p className="fs-5">메인 배너와 서브 페이지 신규 구축 및 전반적인 유지보수 담당</p></div>
               </div>
               <div
                 className="col-sm col-12 p-0 hidden"
@@ -146,7 +153,7 @@ const Work = () => {
                     <img src={dongil} alt="" />
                   </figure>
                 </Link>
-                <div className="thumb-overlay"></div>
+                <div className="thumb-overlay"><p className="fs-5">해당 페이지 구축과 인터랙션 작업</p></div>
               </div>
             </div>
           </div>
